@@ -1,0 +1,16 @@
+{
+    "name": "NFramework",
+    "rootNamespace": "",
+    "references": [
+        "GUID:43721a61aaca19a43be025e093312924"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

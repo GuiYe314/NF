@@ -1,0 +1,42 @@
+// **********************************************************************
+// 文件信息
+// 文件名(File Name):                #SCRIPTNAME#.cs
+// 作者(Author):                     填写你的名字
+// 创建时间(CreateTime):             #CREATETIME#
+// Unity版本(UnityVersion)：         #UNITYVERSION#
+// 脚本描述(Module description):
+// 脚本修改(Script modification):
+// **********************************************************************
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace 
+{
+    public partial class #SCRIPTNAME#
+    {
+        #region 字段
+
+        
+
+        #endregion
+        
+        #region 属性
+
+        
+
+        #endregion
+        
+        #region 接口
+        
+        
+        
+        #endregion
+
+        #region 方法
+        
+        
+        
+        #endregion
+    }
+}

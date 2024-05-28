@@ -1,0 +1,14 @@
+{
+    //游戏版本
+    "GameVersion": "0.0.1",
+    //内部版本
+    "InternalGameVersion": 0,
+    //检查更新版本链接
+    "CheckVersionUrl": "https://starforce.gameframework.cn/Resources/{0}Version.txt",
+    "WindowsAppUrl": "https://starforce.gameframework.cn",
+    "MacOSAppUrl": "https://starforce.gameframework.cn",
+    "IOSAppUrl": "https://starforce.gameframework.cn",
+    "AndroidAppUrl": "https://starforce.gameframework.cn",
+    "END_OF_JSON": ""
+  }
+  
