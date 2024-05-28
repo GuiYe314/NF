@@ -14,7 +14,7 @@ using System;
 
 namespace 
 {
-    public class #SCRIPTNAME# : FrameworkComponentBase
+    public class #SCRIPTNAME# : NFrameworkComponentBase
     {
         #region 字段
 
