@@ -1,8 +1,9 @@
+
+#if UNITY_EDITOR
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using UnityEditor;
-using UnityEditor.Compilation;
 using UnityEditor.ProjectWindowCallback;
 using UnityEngine;
 
@@ -154,3 +155,5 @@ public static class CreatNewCShapScript
         }
     }
 }
+
+#endif

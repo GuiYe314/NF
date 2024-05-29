@@ -8,26 +8,29 @@
 // 脚本修改(Script modification):
 // **********************************************************************
 
+#if UNITY_EDITOR && UNITY_WEBGL
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
 
-public class PostBuildActions
+
+    public class PostBuildActions
 {
-    /// <summary>
-    /// 打包后对WebGl进行替换，解决手机端显示问题
-    /// </summary>
-    /// <param name="target"></param>
-    /// <param name="targetPath"></param>
-    [PostProcessBuild]
+        // <summary>
+        // 打包后对WebGl进行替换，解决手机端显示问题
+        // </summary>
+        // <param name = "target" ></ param >
+        // < param name="targetPath"></param>
+        [PostProcessBuild]
     public static void OnPostProcessBuild(BuildTarget target, string targetPath)
     {
         if (target != BuildTarget.WebGL) return;
 
-        var path = Path.Combine(targetPath, "Build/UnityLoader.js");
-        var text = File.ReadAllText(path);
-        text = text.Replace("UnityLoader.SystemInfo.mobile", "false");
-        text = text.Replace("[\"Edge\", \"Firefox\", \"Chrome\", \"Safari\"].indexOf(UnityLoader.SystemInfo.browser) == -1", "false");
-        File.WriteAllText(path, text);
+        //var path = Path.Combine(targetPath, "Build/UnityLoader.js");
+        //var text = File.ReadAllText(path);
+        //text = text.Replace("UnityLoader.SystemInfo.mobile", "false");
+        //text = text.Replace("[\"Edge\", \"Firefox\", \"Chrome\", \"Safari\"].indexOf(UnityLoader.SystemInfo.browser) == -1", "false");
+        //File.WriteAllText(path, text);
     }
 }
+#endif
