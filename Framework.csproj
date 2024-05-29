@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B8E49E-2F8C-9B7B-1E74-BE537D645A28}</ProjectGuid>
+    <ProjectGuid>{8622BDDA-2B5B-596A-1F2F-71C2B1F985BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Framework</AssemblyName>
@@ -56,28 +56,43 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="D:\Program Files\VS\2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="D:\Work\NFrameWork\Assets\2_Plugins\ICSharpCode.SharpZipLib.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\0_Framework\Libraries\Base\DataStructure\FrameworkLinkedList.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\Log\FrameworkLog.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\Log\FrameworkLog.ILogHelper.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\Enum\FrameworkLogLevel.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Text.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Text.ITextHelper.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkException.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\Version\Version.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\Version\Version.IVersionHelper.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Converter.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkEntry.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkModule.cs" />
     <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Marshal.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Assembly.cs" />
     <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Compression.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\DataStructure\FrameworkMultiDictionary.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\Log\FrameworkLog.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\IObjectPoolManager.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkModule.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ReleaseObjectFilterCallback.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\Version\Version.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Assembly.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkEntry.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Text.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectBase.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\Version\Version.IVersionHelper.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\IObjectPool.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\ReferencePool\ReferencePoolInfo.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectPoolBase.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectPoolManager.ObjectPool.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Text.ITextHelper.cs" />
     <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Compression.ICompressionHelper.cs" />
-    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Json.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\Enum\FrameworkLogLevel.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\FrameworkException.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectPoolManager.cs" />
     <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Json.IJsonHelper.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\DataStructure\TypeNamePair.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\ReferencePool\ReferencePool.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\ReferencePool\IReference.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Converter.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectPoolManager.Object.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Utility\Utility.Json.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\DataStructure\FrameworkLinkedListRange.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\DataStructure\FrameworkLinkedList.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\ObjectPool\ObjectInfo.cs" />
+    <Compile Include="Assets\0_Framework\Libraries\Base\Log\FrameworkLog.ILogHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\0_Framework\Framework.asmdef" />
