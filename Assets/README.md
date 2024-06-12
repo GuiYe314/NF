@@ -3,9 +3,9 @@
     - 说明：GameFramework框架源码
 - 1_NFramework  
     - 说明：依附于GameFramework框架自己的扩展
-- 2_Plugins
+- Plugins
     - 说明：插件存放的地方
-- 3_Script
+- 3_ModuleScript
     - 说明：项目中固定功能模块
 - 4_ProjectScript
     - 说明：项目脚本，随项目改变
@@ -13,6 +13,10 @@
     - 说明：框架资源，跟随框架不会轻易改变的默认资源
 - 6_ProjectResources
     - 说明：项目资源，跟随项目的资源。
+- 7_Procedures
+    - 说明：流程脚本
+- 8_GlobalInfo
+    - 说明：全局信息，放在其他程序集下GF无法获取的类
 - StreamingAssets
     - 说明：Unity特殊文件夹
     
