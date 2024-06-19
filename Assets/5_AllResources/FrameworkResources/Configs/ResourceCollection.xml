@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Project_UI_FixedUI" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="d2d9f7332e0791140ae6007a95ed9909" ResourceName="Project_UI_FixedUI" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>

@@ -1,0 +1,23 @@
+{
+    "name": "ProjectScript",
+    "rootNamespace": "",
+    "references": [
+        "UnityGameFramework.Runtime",
+        "GameFramework",
+        "NFramework",
+        "ModuleScript",
+        "Cinemachine",
+        "UniRx",
+        "Unity.TextMeshPro",
+        "PersonOperation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

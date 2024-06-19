@@ -9,14 +9,16 @@
     - 说明：项目中固定功能模块
 - 4_ProjectScript
     - 说明：项目脚本，随项目改变
-- 5_FrameworkResources
-    - 说明：框架资源，跟随框架不会轻易改变的默认资源
-- 6_ProjectResources
-    - 说明：项目资源，跟随项目的资源。
-- 7_Procedures
+- 5_AllResources
+    - 说明：所有资源
+- 6_Procedures
     - 说明：流程脚本
-- 8_GlobalInfo
+- 7_GlobalInfo
     - 说明：全局信息，放在其他程序集下GF无法获取的类
+- 8_Demo
+    - 说明：测试或演示文件夹。最终打包需要删除
+- Plugins
+    - 说明：插件文件夹
 - StreamingAssets
     - 说明：Unity特殊文件夹
     

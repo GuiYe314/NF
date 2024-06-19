@@ -5,7 +5,7 @@ mergeInto(LibraryManager.library, {
   },
 
   HelloString: function (str) {
-    window.alert(UTF8ToString(str));
+    //window.alert(UTF8ToString(str));
   },
 
   PrintFloatArray: function (array, size) {
@@ -28,5 +28,13 @@ mergeInto(LibraryManager.library, {
   BindWebGLTexture: function (texture) {
     GLctx.bindTexture(GLctx.TEXTURE_2D, GL.textures[texture]);
   },
+
+
+
+  cs: function(){
+
+
+    MyGameInstance.SendMessage('Directional Light', 'CSa', 'js发消息');
+  }
 
 });

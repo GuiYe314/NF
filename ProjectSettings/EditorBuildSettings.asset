@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/6_ProjectResources/Scenes/dt.unity
+  - enabled: 0
+    path: Assets/5_AllResources/ProjectResources/Scenes/dt.unity
     guid: 4f94233464585164491ee8735a16743d
+  - enabled: 0
+    path: Assets/5_AllResources/ProjectResources/Scenes/dtbyc.unity
+    guid: 6343119ee3b838545acda37ef5f5d0a1
+  - enabled: 1
+    path: Assets/5_AllResources/ProjectResources/Scenes/dtAI.unity
+    guid: 1af5c3707534021449bea089483a70ee
   m_configObjects: {}

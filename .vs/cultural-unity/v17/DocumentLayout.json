@@ -1,12 +1,152 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Work\\2024\\05\\cultural-unity\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\8_demo\\wyc\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\8_demo\\wyc\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\plugins\\personoperation\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|solutionrelative:assets\\plugins\\personoperation\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\plugins\\personoperation\\mobile\\scripts\\virtualinputs\\uivirtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|solutionrelative:assets\\plugins\\personoperation\\mobile\\scripts\\virtualinputs\\uivirtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|d:\\work\\2024\\05\\cultural-unity\\assets\\8_demo\\wyc\\unitytojs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\8_demo\\wyc\\unitytojs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\4_projectscript\\runtime\\demo\\cmfreelookonlywhenrightmousedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|solutionrelative:assets\\4_projectscript\\runtime\\demo\\cmfreelookonlywhenrightmousedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\4_projectscript\\runtime\\demo\\ncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|solutionrelative:assets\\4_projectscript\\runtime\\demo\\ncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF07D562-AF50-F5A5-3F16-603A4E8E7002}|Assembly-CSharp-Editor.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\7_globalinfo\\editor\\config\\gameframeworkconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF07D562-AF50-F5A5-3F16-603A4E8E7002}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\7_globalinfo\\editor\\config\\gameframeworkconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\5_allresources\\frameworkresources\\configs\\resourceeditor.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\5_allresources\\frameworkresources\\configs\\resourceeditor.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnityToJs.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\UnityToJs.cs",
+              "RelativeDocumentMoniker": "Assets\\8_Demo\\WYC\\UnityToJs.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\UnityToJs.cs",
+              "RelativeToolTip": "Assets\\8_Demo\\WYC\\UnityToJs.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:49:25.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AI.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\AI.cs",
+              "RelativeDocumentMoniker": "Assets\\8_Demo\\WYC\\AI.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\AI.cs",
+              "RelativeToolTip": "Assets\\8_Demo\\WYC\\AI.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:03:10.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIVirtualJoystick.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
+              "RelativeToolTip": "Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:42:15.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAcwMgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:20:44.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NCharacterController.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
+              "RelativeToolTip": "Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:11:06.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMFreelookOnlyWhenRightMouseDown.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
+              "RelativeDocumentMoniker": "Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
+              "RelativeToolTip": "Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:09:46.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResourceEditor.xml",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
+              "RelativeDocumentMoniker": "Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
+              "RelativeToolTip": "Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-17T02:58:41.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameFrameworkConfigs.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
+              "RelativeDocumentMoniker": "Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
+              "RelativeToolTip": "Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:54:32.082Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
