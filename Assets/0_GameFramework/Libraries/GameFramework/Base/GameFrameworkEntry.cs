@@ -129,5 +129,15 @@ namespace GameFramework
 
             return module;
         }
+
+
+
+        /// <summary>
+        /// 程序关闭回调
+        /// </summary>
+        public static void OnApplicationQuit()
+        {
+
+        }
     }
 }

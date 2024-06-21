@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/5_AllResources/ProjectResources/Scenes/dtAI.unity
     guid: 1af5c3707534021449bea089483a70ee
+  - enabled: 0
+    path: Assets/5_AllResources/ProjectResources/Scenes/dlys.unity
+    guid: 5e031ff0dbe7c424d9666eae9dd69d60
   m_configObjects: {}

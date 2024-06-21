@@ -7,19 +7,43 @@
 // 脚本描述(Module description):     框架入口
 // 脚本修改(Script modification):
 // **********************************************************************
+using GameFramework;
 using System.Collections;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
+using UnityGameFramework.Runtime;
 
 namespace NF
 {
     public partial class NFEntry : MonoBehaviour
     {
+
+
+        /// <summary>
+        /// 获取RX组件。
+        /// </summary>
+        public static RXComponent RX
+        {
+            get;
+            private set;
+        }
+
+
+
         private void Start()
         {
+            Init();
+
             InitBuiltinComponents();
             InitModuleComponents();
             InitProjectComponents();
+
+        }
+
+        protected void Init()
+        {
+            RX = UnityGameFramework.Runtime.GameEntry.GetComponent<RXComponent>();
         }
 
 
@@ -40,6 +64,12 @@ namespace NF
 
         }
 
+
+        
+        protected virtual void OnDestroy()
+        {
+            GameFrameworkLog.OnApplicationQuit();
+        }
 
     }
 }

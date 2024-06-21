@@ -7,21 +7,30 @@
 // 脚本描述(Module description):     项目入口
 // 脚本修改(Script modification):
 // **********************************************************************
+using Module;
 using NF;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityGameFramework.Runtime;
 
 namespace Project
 {
-    public class NProjectEntry : NFEntry
+    public class NProjectEntry : NModuleEntry
     {
+
+
 
         protected override void InitProjectComponents()
         {
             base.InitProjectComponents();
+       
 
+        }
 
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
         }
 
     }

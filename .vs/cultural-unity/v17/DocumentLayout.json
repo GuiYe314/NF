@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "D:\\Work\\2024\\05\\cultural-unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\8_demo\\wyc\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\8_demo\\wyc\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\7_globalinfo\\log\\fileloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\7_globalinfo\\log\\fileloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\plugins\\personoperation\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|solutionrelative:assets\\plugins\\personoperation\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\0_gameframework\\scripts\\runtime\\utility\\defaultloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|solutionrelative:assets\\0_gameframework\\scripts\\runtime\\utility\\defaultloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\plugins\\personoperation\\mobile\\scripts\\virtualinputs\\uivirtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9876144F-3DC8-6297-EE03-DDE655909AC9}|PersonOperation.csproj|solutionrelative:assets\\plugins\\personoperation\\mobile\\scripts\\virtualinputs\\uivirtualjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\1_nframework\\runtime\\libraries\\rxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|solutionrelative:assets\\1_nframework\\runtime\\libraries\\rxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|d:\\work\\2024\\05\\cultural-unity\\assets\\8_demo\\wyc\\unitytojs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\8_demo\\wyc\\unitytojs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\1_nframework\\runtime\\unirx\\unirxbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|solutionrelative:assets\\1_nframework\\runtime\\unirx\\unirxbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\4_projectscript\\runtime\\demo\\cmfreelookonlywhenrightmousedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|solutionrelative:assets\\4_projectscript\\runtime\\demo\\cmfreelookonlywhenrightmousedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\1_nframework\\runtime\\unirx\\rxmsg_global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|solutionrelative:assets\\1_nframework\\runtime\\unirx\\rxmsg_global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\4_projectscript\\runtime\\demo\\ncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|solutionrelative:assets\\4_projectscript\\runtime\\demo\\ncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\0_gameframework\\scripts\\runtime\\base\\gameframeworkcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|solutionrelative:assets\\0_gameframework\\scripts\\runtime\\base\\gameframeworkcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF07D562-AF50-F5A5-3F16-603A4E8E7002}|Assembly-CSharp-Editor.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\7_globalinfo\\editor\\config\\gameframeworkconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF07D562-AF50-F5A5-3F16-603A4E8E7002}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\7_globalinfo\\editor\\config\\gameframeworkconfigs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|d:\\work\\2024\\05\\cultural-unity\\assets\\1_nframework\\runtime\\base\\nfentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A41475-87BD-CAEA-6946-36FEDC19DB2E}|NFramework.csproj|solutionrelative:assets\\1_nframework\\runtime\\base\\nfentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\5_allresources\\frameworkresources\\configs\\resourceeditor.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{20B874BC-B5C6-5B6D-6139-1EF711AEC477}|Assembly-CSharp.csproj|solutionrelative:assets\\5_allresources\\frameworkresources\\configs\\resourceeditor.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{CAC8AB7F-1118-470F-CF36-34257F66CC62}|ModuleScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\3_modulescript\\runtime\\base\\nmoduleentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC8AB7F-1118-470F-CF36-34257F66CC62}|ModuleScript.csproj|solutionrelative:assets\\3_modulescript\\runtime\\base\\nmoduleentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3539A0BD-8BAD-636F-7B48-7D299E6CC134}|GameFramework.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\0_gameframework\\libraries\\gameframework\\base\\log\\gameframeworklog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3539A0BD-8BAD-636F-7B48-7D299E6CC134}|GameFramework.csproj|solutionrelative:assets\\0_gameframework\\libraries\\gameframework\\base\\log\\gameframeworklog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3539A0BD-8BAD-636F-7B48-7D299E6CC134}|GameFramework.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\0_gameframework\\libraries\\gameframework\\base\\log\\gameframeworklog.iloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3539A0BD-8BAD-636F-7B48-7D299E6CC134}|GameFramework.csproj|solutionrelative:assets\\0_gameframework\\libraries\\gameframework\\base\\log\\gameframeworklog.iloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\4_projectscript\\runtime\\base\\nprojectentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2C1EAE-2639-ADA8-DF44-1C70288920DF}|ProjectScript.csproj|solutionrelative:assets\\4_projectscript\\runtime\\base\\nprojectentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|D:\\Work\\2024\\05\\cultural-unity\\assets\\0_gameframework\\scripts\\runtime\\base\\basecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707B8EEA-7B54-4084-F680-2C1A4045FF54}|UnityGameFramework.Runtime.csproj|solutionrelative:assets\\0_gameframework\\scripts\\runtime\\base\\basecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UnityToJs.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\UnityToJs.cs",
-              "RelativeDocumentMoniker": "Assets\\8_Demo\\WYC\\UnityToJs.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\UnityToJs.cs",
-              "RelativeToolTip": "Assets\\8_Demo\\WYC\\UnityToJs.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBYAAAA9AAAA",
+              "DocumentIndex": 10,
+              "Title": "NProjectEntry.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Base\\NProjectEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\4_ProjectScript\\Runtime\\Base\\NProjectEntry.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Base\\NProjectEntry.cs",
+              "RelativeToolTip": "Assets\\4_ProjectScript\\Runtime\\Base\\NProjectEntry.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:49:25.791Z",
+              "WhenOpened": "2024-06-21T07:27:20.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AI.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\AI.cs",
-              "RelativeDocumentMoniker": "Assets\\8_Demo\\WYC\\AI.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\8_Demo\\WYC\\AI.cs",
-              "RelativeToolTip": "Assets\\8_Demo\\WYC\\AI.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwDkAAACHAAAA",
+              "DocumentIndex": 7,
+              "Title": "NModuleEntry.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\3_ModuleScript\\Runtime\\Base\\NModuleEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\3_ModuleScript\\Runtime\\Base\\NModuleEntry.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\3_ModuleScript\\Runtime\\Base\\NModuleEntry.cs",
+              "RelativeToolTip": "Assets\\3_ModuleScript\\Runtime\\Base\\NModuleEntry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T03:03:10.552Z",
+              "WhenOpened": "2024-06-21T07:24:48.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UIVirtualJoystick.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
-              "RelativeToolTip": "Assets\\Plugins\\PersonOperation\\Mobile\\Scripts\\VirtualInputs\\UIVirtualJoystick.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBQAAAARAAAA",
+              "DocumentIndex": 6,
+              "Title": "NFEntry.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\Base\\NFEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\1_NFramework\\Runtime\\Base\\NFEntry.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\Base\\NFEntry.cs",
+              "RelativeToolTip": "Assets\\1_NFramework\\Runtime\\Base\\NFEntry.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwv0AAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T06:42:15.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThirdPersonController.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
-              "RelativeToolTip": "Assets\\Plugins\\PersonOperation\\Scripts\\ThirdPersonController.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAAcwMgAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T03:20:44.475Z",
+              "WhenOpened": "2024-06-21T08:47:38.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NCharacterController.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
-              "RelativeDocumentMoniker": "Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
-              "RelativeToolTip": "Assets\\4_ProjectScript\\Runtime\\Demo\\NCharacterController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwEgAAAANAAAA",
+              "Title": "GameFrameworkComponent.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\GameFrameworkComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\GameFrameworkComponent.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\GameFrameworkComponent.cs",
+              "RelativeToolTip": "Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\GameFrameworkComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T03:11:06.177Z"
+              "WhenOpened": "2024-06-21T08:49:52.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CMFreelookOnlyWhenRightMouseDown.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
-              "RelativeDocumentMoniker": "Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
-              "RelativeToolTip": "Assets\\4_ProjectScript\\Runtime\\Demo\\CMFreelookOnlyWhenRightMouseDown.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Title": "RxMsg_Global.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\UniRx\\RxMsg_Global.cs",
+              "RelativeDocumentMoniker": "Assets\\1_NFramework\\Runtime\\UniRx\\RxMsg_Global.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\UniRx\\RxMsg_Global.cs",
+              "RelativeToolTip": "Assets\\1_NFramework\\Runtime\\UniRx\\RxMsg_Global.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T03:09:46.22Z"
+              "WhenOpened": "2024-06-21T08:48:15.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResourceEditor.xml",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
-              "RelativeDocumentMoniker": "Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
-              "RelativeToolTip": "Assets\\5_AllResources\\FrameworkResources\\Configs\\ResourceEditor.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-17T02:58:41.905Z"
+              "DocumentIndex": 3,
+              "Title": "UniRxBase.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\UniRx\\UniRxBase.cs",
+              "RelativeDocumentMoniker": "Assets\\1_NFramework\\Runtime\\UniRx\\UniRxBase.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\UniRx\\UniRxBase.cs",
+              "RelativeToolTip": "Assets\\1_NFramework\\Runtime\\UniRx\\UniRxBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:48:12.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameFrameworkConfigs.cs",
-              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
-              "RelativeDocumentMoniker": "Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
-              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
-              "RelativeToolTip": "Assets\\7_GlobalInfo\\Editor\\Config\\GameFrameworkConfigs.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAACDAAAA",
+              "DocumentIndex": 2,
+              "Title": "RXComponent.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\Libraries\\RXComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\1_NFramework\\Runtime\\Libraries\\RXComponent.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\1_NFramework\\Runtime\\Libraries\\RXComponent.cs",
+              "RelativeToolTip": "Assets\\1_NFramework\\Runtime\\Libraries\\RXComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T02:54:32.082Z"
+              "WhenOpened": "2024-06-21T08:41:27.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileLogHelper.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Log\\FileLogHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\7_GlobalInfo\\Log\\FileLogHelper.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\7_GlobalInfo\\Log\\FileLogHelper.cs",
+              "RelativeToolTip": "Assets\\7_GlobalInfo\\Log\\FileLogHelper.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAcwFEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:48:45.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultLogHelper.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Utility\\DefaultLogHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\0_GameFramework\\Scripts\\Runtime\\Utility\\DefaultLogHelper.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Utility\\DefaultLogHelper.cs",
+              "RelativeToolTip": "Assets\\0_GameFramework\\Scripts\\Runtime\\Utility\\DefaultLogHelper.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:31:19.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameFrameworkLog.ILogHelper.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.ILogHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.ILogHelper.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.ILogHelper.cs",
+              "RelativeToolTip": "Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.ILogHelper.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvx4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:38:24.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameFrameworkLog.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.cs",
+              "RelativeDocumentMoniker": "Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.cs",
+              "RelativeToolTip": "Assets\\0_GameFramework\\Libraries\\GameFramework\\Base\\Log\\GameFrameworkLog.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowDcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T07:19:21.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseComponent.cs",
+              "DocumentMoniker": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\BaseComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\BaseComponent.cs",
+              "ToolTip": "D:\\Work\\2024\\05\\cultural-unity\\Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\BaseComponent.cs",
+              "RelativeToolTip": "Assets\\0_GameFramework\\Scripts\\Runtime\\Base\\BaseComponent.cs",
+              "ViewState": "AQIAAEgBAAAAAAAAAAAIwGQBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:52:21.776Z"
             }
           ]
         }

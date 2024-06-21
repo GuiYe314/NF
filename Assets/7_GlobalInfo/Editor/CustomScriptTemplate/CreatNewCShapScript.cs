@@ -21,7 +21,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewMonoBehaviourScript.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewMonoBehaviourScript.txt");
     }
 
 
@@ -35,7 +35,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewMonoBehaviourScript-partial.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewMonoBehaviourScript-partial.txt");
     }
 
     /// <summary>
@@ -48,7 +48,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewNoMonoBehaviourScript.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewNoMonoBehaviourScript.txt");
     }
 
 
@@ -62,7 +62,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewNoMonoBehaviourScript-partial.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewNoMonoBehaviourScript-partial.txt");
     }
 
 
@@ -76,7 +76,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewGFProcedure.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewGFProcedure.txt");
     }
 
     /// <summary>
@@ -89,7 +89,7 @@ public static class CreatNewCShapScript
         ProjectWindowUtil.StartNameEditingIfProjectWindowExists(0,
         ScriptableObject.CreateInstance<CreateNewCShapScriptAsset>(),
         GetSelectPathOrFallback() + "/NewNoMonoBehaviourScript.cs", null,
-        "Assets/8_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewGFComponent.txt");
+        "Assets/7_GlobalInfo/Editor/CustomScriptTemplate/C# Script-NewGFComponent.txt");
     }
 
 

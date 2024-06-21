@@ -23,6 +23,11 @@ namespace GameFramework
             s_LogHelper = logHelper;
         }
 
+        public static void OnApplicationQuit()
+        {
+            s_LogHelper.OnApplicationQuit();
+        }
+
         /// <summary>
         /// 打印调试级别日志，用于记录调试类日志信息。
         /// </summary>

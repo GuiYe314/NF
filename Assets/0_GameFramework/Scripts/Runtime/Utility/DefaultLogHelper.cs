@@ -20,7 +20,7 @@ namespace UnityGameFramework.Runtime
         /// </summary>
         /// <param name="level">日志等级。</param>
         /// <param name="message">日志内容。</param>
-        public void Log(GameFrameworkLogLevel level, object message)
+        public virtual void Log(GameFrameworkLogLevel level, object message)
         {
             switch (level)
             {
@@ -43,6 +43,12 @@ namespace UnityGameFramework.Runtime
                 default:
                     throw new GameFrameworkException(message.ToString());
             }
+        }
+
+
+        public virtual void OnApplicationQuit()
+        {
+
         }
     }
 }
