@@ -15,6 +15,8 @@ using NF;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
+
+
 namespace Procedures.NFramework
 {
     public class ProcedureRoot : ProcedureBase
@@ -29,7 +31,8 @@ namespace Procedures.NFramework
             {
                 base.OnInit(procedureOwner);
                 // 游戏初始化时执行
-                Log.Debug("初始化运行");
+                Log.Info("进入Root流程");
+
             }
             catch (System.Exception e)
             {
@@ -52,6 +55,7 @@ namespace Procedures.NFramework
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
             // 每次轮询执行
+
         }
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)

@@ -7,6 +7,7 @@
 // 脚本描述(Module description):     项目入口
 // 脚本修改(Script modification):
 // **********************************************************************
+using GameFramework;
 using Module;
 using NF;
 using System.Collections;
@@ -24,8 +25,8 @@ namespace Project
         protected override void InitProjectComponents()
         {
             base.InitProjectComponents();
-       
 
+            Log.Info("程序初始化完成，开启项目");
         }
 
         protected override void OnDestroy()

@@ -44,6 +44,9 @@ namespace NF
         //程序关闭
         private bool applicationQuit = false;
 
+        protected string OpenRecord = $"--------------------------------开启记录：{System.DateTime.Now}--------------------------------";
+        protected string EndRecord = $"--------------------------------结束记录：{System.DateTime.Now}--------------------------------";
+
 
         public FileLogHelper()
         {
@@ -55,12 +58,15 @@ namespace NF
         
             try
             {
-                Log( GameFrameworkLogLevel.Info,"程序初始化完成，开启项目");
+               
                 //查看路径是否存在不存在创建路径
                 if (!Directory.Exists(LogSavePathDirectory)) {
 
                     Directory.CreateDirectory(LogSavePathDirectory);
                 }
+
+                logMsgQueue.Enqueue(OpenRecord);
+
                 //开启记录
                 Open(LogSavePathDirectory);
 
@@ -79,24 +85,45 @@ namespace NF
             switch (level)
             {
                 case GameFrameworkLogLevel.Debug:
+#if !NF_UNITY_NOLOG
                     Debug.Log(Utility.Text.Format("<color=#888888>{0}</color>", message));
+#endif
                     break;
 
                 case GameFrameworkLogLevel.Info:
+#if !NF_UNITY_NOLOG
                     Debug.Log(message.ToString());
+#endif
                     break;
-
                 case GameFrameworkLogLevel.Warning:
+
+#if !NF_UNITY_NOLOG
                     Debug.LogWarning(message.ToString());
+#endif
                     break;
 
                 case GameFrameworkLogLevel.Error:
-                    Debug.LogError(message.ToString());
-                    break;
 
+#if !NF_UNITY_NOLOG
+                    Debug.LogError(message.ToString());
+#endif
+                    break;
                 default:
                     throw new GameFrameworkException(message.ToString());
             }
+
+
+            //进行日志保存拼接
+            System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace(true);
+            ConcatenationMsg(message.ToString(),level,st);
+        }
+
+
+        protected virtual void ConcatenationMsg(string logMsg, GameFrameworkLogLevel level, System.Diagnostics.StackTrace st)
+        {
+
+            string log = string.Format("【{0}】---ProgramRunTime:【{1}】---ScriptLocation:【{2}-{3}-{4}】"+ "---Messageblob:【{5}】", level.ToString(), Time.time.ToString(), st.GetFrame(3).GetMethod().ReflectedType.Name, st.GetFrame(3).GetMethod().Name, st.GetFrame(3).GetFileLineNumber().ToString(), logMsg);
+            logMsgQueue.Enqueue(log);
         }
 
 
@@ -120,11 +147,14 @@ namespace NF
                     if (logMsgQueue.Count <= 0)
                     {
                         Thread.Sleep(1000);
-                        if (applicationQuit) return;
+                        if (logMsgQueue.Count <= 0&&applicationQuit) return;
                     }
                     else
                     {
-                        File.AppendAllText(logPath.ToString(), logMsgQueue.Dequeue(), Encoding.UTF8);
+
+                        string msg = logMsgQueue.Dequeue();
+                        msg += Environment.NewLine;
+                        File.AppendAllText(logPath.ToString(), msg, Encoding.UTF8);
                         Thread.Sleep(10);
                     }
                 }
@@ -201,19 +231,23 @@ namespace NF
 
 
 
+        /// <summary>
+        /// 消息回调
+        /// </summary>
+        /// <param name="logMessage">log信息</param>
+        /// <param name="stackTrace"></param>
+        /// <param name="logType"></param>
         private void OnLogMessageReceived(string logMessage, string stackTrace, LogType logType)
         {
-            string log = Utility.Text.Format("[{0}][{1}] {2}{4}{3}{4}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"), logType.ToString(), logMessage ?? "<Empty Message>", stackTrace ?? "<Empty StackTrace>", Environment.NewLine);
-
-         
             try
             {
-                lock (logMsgQueue) {
-                    //通过队列记录Log日志
-                    logMsgQueue.Enqueue(logMessage);
+                if (logType.Equals(LogType.Error))
+                {
+                    //只记录错误信息
                 }
-     
-                //File.AppendAllText(LogSavePath, log, Encoding.UTF8);
+
+
+      
             }
             catch
             {
@@ -224,8 +258,9 @@ namespace NF
 
         public  void OnApplicationQuit()
         {
-         
+            logMsgQueue.Enqueue(EndRecord);
             applicationQuit = true;
+         
         }
 
     }
