@@ -9,7 +9,8 @@
         "Cinemachine",
         "UniRx",
         "Unity.TextMeshPro",
-        "PersonOperation"
+        "PersonOperation",
+        "com.Tivadar.Best.HTTP"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
