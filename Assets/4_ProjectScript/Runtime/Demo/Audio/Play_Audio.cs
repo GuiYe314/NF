@@ -1,8 +1,5 @@
-using System;
+
 using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
@@ -22,9 +19,15 @@ public class Play_Audio : MonoBehaviour, IPointerClickHandler
 
     public AudioClip audioClip;
 
+    [SerializeField]
     protected AudioSource audioSource;
 
-    protected AudioSource[] audioSources;
+    protected Play_Audio[] playAudio;
+
+    [SerializeField]
+    protected Animator animator;
+
+    public int narrateIndex { get; set; }
 
 
     /// <summary>
@@ -34,11 +37,39 @@ public class Play_Audio : MonoBehaviour, IPointerClickHandler
     public void Set_AudioUrl(string audioUlr)
     {
         this.audioUlr = audioUlr;
-        audioSource = GetComponent<AudioSource>();
+        if(!audioSource)
+            audioSource = GetComponent<AudioSource>();
+        if(!animator)
+            animator = GetComponent<Animator>();
+
+
+
+        narrateIndex = Animator.StringToHash("narrate");
+
+
         StartCoroutine(Load());
 
-        audioSources = GameObject.FindObjectsOfType<AudioSource>();
+        playAudio = GameObject.FindObjectsOfType<Play_Audio>();
     }
+
+
+    /// <summary>
+    /// 切换解说 状态
+    /// </summary>
+    /// <param name="isNarrate"></param>
+    public void SwitchNarrate(bool isNarrate)
+    {
+        animator.SetBool(narrateIndex, isNarrate);
+
+        if(isNarrate)
+            audioSource.Play();
+        else
+            audioSource.Stop();
+
+    }
+
+
+
 
 
     protected IEnumerator Load()
@@ -60,15 +91,22 @@ public class Play_Audio : MonoBehaviour, IPointerClickHandler
                 audioClip = DownloadHandlerAudioClip.GetContent(www);
                 audioSource.clip = audioClip;
             }
-
-
-
-
         }
 
-
-
     }
+
+
+
+    void Update()
+    {
+
+        //在状态变成讲述后和语音播放完成后结束动作
+        if (animator.GetBool(narrateIndex) && !audioSource.isPlaying)
+        {
+            SwitchNarrate(false);
+        }
+    }
+
 
 
 
@@ -85,22 +123,14 @@ public class Play_Audio : MonoBehaviour, IPointerClickHandler
     public void OnMouseDown()
     {
 
-        Debug.LogError("播放"+audioSource.clip);
-
-        if (audioSource.isPlaying)
-        {
-            audioSource.Stop();
-        }
-        else
-        {
-            audioSource.Play();
-        }
+    
+        SwitchNarrate(!audioSource.isPlaying);
 
 
-        for (int i = 0; i < audioSources.Length; i++)
+        for (int i = 0; i < playAudio.Length; i++)
         {
-            if (audioSources[i].name.Equals(name)) continue;
-            audioSources[i].Stop(); ;
+            if (playAudio[i].name.Equals(name)) continue;
+            playAudio[i].SwitchNarrate(false);
         }
 
 

@@ -23,6 +23,10 @@ namespace NF.Demo
         protected Transform ta;
 
 
+        [SerializeField]
+        protected PersonHint personHint;
+
+
         // Start is called before the first frame update
         void Start()
         {
@@ -55,13 +59,16 @@ namespace NF.Demo
         void Update()
         {
 
-            if (!_input.move.Equals(Vector2.zero)||(_controller.IsNavigation && Vector3.Distance(transform.position, ta.position) < 0.3f))
+
+            //Debug.LogError(_controller.IsNavigation +"~~~~~~~~~~"+ Vector3.Distance(transform.position, ta.position));
+
+            if (!_input.move.Equals(Vector2.zero)||(_controller.IsNavigation && Vector3.Distance(transform.position, ta.position) < 0.8f))
             {
                 agent.enabled = false;
                 _controller.IsNavigation = false;
 
                 ta = null;
-
+                personHint.ShowUI(false);
             }
 
         }
@@ -74,6 +81,8 @@ namespace NF.Demo
         public void MovePersonMoveTargets(Vector3 target)
         {
             agent.SetDestination(target);
+
+            personHint.ShowUI(true);
         }
 
 

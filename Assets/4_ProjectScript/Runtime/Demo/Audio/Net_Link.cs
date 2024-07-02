@@ -61,7 +61,7 @@ public class Net_Link : MonoBehaviour
                 {
 
 
-                    Debug.LogError(resp.DataAsText);
+                    //Debug.LogError(resp.DataAsText);
 
 
                     LoginClass login = JsonUtility.FromJson<LoginClass>(resp.DataAsText);
@@ -124,7 +124,7 @@ public class Net_Link : MonoBehaviour
             case HTTPRequestStates.Finished:
                 if (resp.IsSuccess)
                 {
-                    Debug.LogError(resp.DataAsText);
+                    //Debug.LogError(resp.DataAsText);
                     DisposeJson(resp.DataAsText);
                     // 5. Here we can process the server's response
                     Debug.Log("Upload finished succesfully!");
