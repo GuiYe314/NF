@@ -9,6 +9,9 @@ using Best.HTTP.Request.Authenticators;
 
 using System.Linq;
 using System;
+using NF;
+using System.IO;
+using UniRx;
 
 public class Net_Link : MonoBehaviour
 {
@@ -26,15 +29,53 @@ public class Net_Link : MonoBehaviour
 
     protected string token = string.Empty;
 
+
+    protected string loginUrl = "https://cultural-tourism.xianyanyu.tech/users/user/auth/form";
+
+
+    protected IDisposable rx_respMsgIDisp = null;
+
     // Start is called before the first frame update
     void Start()
     {
+        //初始化Http脚本
+        HttpNetController.Init();
+
+        //订阅消息
+        rx_respMsgIDisp = HttpNetController.rx_respMsg.Where(x => { 
+            //判断信息
+            if(x.httpNetMsgState == HttpNetMsgStateEnum.error)
+            {
+
+                Debug.LogError(x.msg);
+                return false;
+            }
+            return true;
+        }).Subscribe(RxMsgCallback);
+
+
+        //Login(loginUrl);
+
+
         //登录
         Login();
         //查询语音位置
 
     }
 
+
+    /// <summary>
+    /// 登录
+    /// </summary>
+    /// <param name="loginUrl">登录</param>
+    protected void Login(string loginUrl)
+    {
+
+        Stream sendMsg = new MultipartFormDataStream()
+            .AddField("username", userName)
+            .AddField("password", password);
+        HttpNetController.PostDataStream(loginUrl, sendMsg);
+    }
 
 
     protected void Login()
@@ -52,6 +93,20 @@ public class Net_Link : MonoBehaviour
 
 
 
+
+    protected void RxMsgCallback(HttpNetMsgDataStructure httpNetMsgDataStructure)
+    {
+        //解析消息
+
+
+
+
+
+
+    }
+
+
+
     protected void LoginCallback(HTTPRequest req, HTTPResponse resp)
     {
         switch (req.State)
@@ -61,7 +116,7 @@ public class Net_Link : MonoBehaviour
                 {
 
 
-                    //Debug.LogError(resp.DataAsText);
+                    Debug.LogError(resp.DataAsText);
 
 
                     LoginClass login = JsonUtility.FromJson<LoginClass>(resp.DataAsText);
@@ -124,7 +179,7 @@ public class Net_Link : MonoBehaviour
             case HTTPRequestStates.Finished:
                 if (resp.IsSuccess)
                 {
-                    //Debug.LogError(resp.DataAsText);
+                    Debug.LogError(resp.DataAsText);
                     DisposeJson(resp.DataAsText);
                     // 5. Here we can process the server's response
                     Debug.Log("Upload finished succesfully!");
@@ -180,6 +235,11 @@ public class Net_Link : MonoBehaviour
 
     }
 
+
+    private void OnDestroy()
+    {
+        rx_respMsgIDisp.Dispose();
+    }
 
 
     public class YYB
