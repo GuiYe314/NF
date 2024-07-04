@@ -33,6 +33,7 @@ namespace Procedures.NFramework
                 // 游戏初始化时执行
                 Log.Info("进入Root流程");
 
+
             }
             catch (System.Exception e)
             {
@@ -55,7 +56,7 @@ namespace Procedures.NFramework
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
             // 每次轮询执行
-
+            ChangeState<ProcedureRootLogin>(procedureOwner);
         }
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)

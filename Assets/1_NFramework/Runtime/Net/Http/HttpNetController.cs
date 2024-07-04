@@ -41,10 +41,12 @@ namespace NF
         /// <param name="url">url</param>
         /// <param name="sendMsg">数据流参数</param>
         /// <returns></returns>
-        public static HTTPRequest PostDataStream(string url,Stream sendMsg)
+        public static HTTPRequest PostDataStream(string url,Stream sendMsg = null)
         {
             HTTPRequest request = HTTPRequest.CreatePost(url, Callback);
-            request.UploadSettings.UploadStream = sendMsg;
+
+            if(sendMsg == null)
+                request.UploadSettings.UploadStream = sendMsg;
             request.Send();
             return request;
         }

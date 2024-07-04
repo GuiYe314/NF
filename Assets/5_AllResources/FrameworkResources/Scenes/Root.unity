@@ -386,11 +386,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7651288164817579628, guid: 7d95dfba52fc1a74a987bf338ebb8ced, type: 3}
       propertyPath: m_AvailableProcedureTypeNames.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7651288164817579628, guid: 7d95dfba52fc1a74a987bf338ebb8ced, type: 3}
       propertyPath: m_AvailableProcedureTypeNames.Array.data[0]
       value: Procedures.NFramework.ProcedureRoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651288164817579628, guid: 7d95dfba52fc1a74a987bf338ebb8ced, type: 3}
+      propertyPath: m_AvailableProcedureTypeNames.Array.data[1]
+      value: Procedures.NFramework.ProcedureRootLogin
       objectReference: {fileID: 0}
     - target: {fileID: 7651288164817657520, guid: 7d95dfba52fc1a74a987bf338ebb8ced, type: 3}
       propertyPath: m_EditorLanguage
